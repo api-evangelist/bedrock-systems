@@ -1,24 +1,61 @@
 aid: bedrock-systems
 name: Bedrock Systems
-description: 'Bedrock Systems is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'BedRock Systems (now operating as BlueRock Security, Inc) is a United States based
+  cybersecurity company building formally verified systems software for critical infrastructure. Its
+  work centers on the NOVA microhypervisor and virtual machine introspection (VMI) tooling, using
+  machine-checked mathematical proofs written in Coq to establish strong security guarantees for
+  virtualization, edge, and embedded platforms. The company open-sources core components — including the
+  NOVA microhypervisor, the tenjint VMI platform, and supporting Coq libraries — on GitHub, and does not
+  publish a public web/REST API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bedrock-systems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/39748547?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-aka: BlueRock Security, Inc
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Cybersecurity
+- Hypervisor
+- Virtualization
+- Formal Verification
+- Microhypervisor
+- Open Source
 apis: []
+common:
+- type: DomainSecurity
+  url: security/bedrock-systems-domain-security.yml
+- type: Website
+  url: https://www.bedrocksystems.com/
+- type: GitHubOrganization
+  url: https://github.com/bedrocksystems
+- type: LLMsTxt
+  url: llms/bedrock-systems-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

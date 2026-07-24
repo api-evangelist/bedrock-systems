@@ -1,0 +1,17 @@
+# BedRock Systems
+
+> BedRock Systems (now operating as BlueRock Security, Inc) is a US-based cybersecurity company building formally verified systems software for critical infrastructure. Its work centers on the NOVA microhypervisor and virtual machine introspection (VMI) tooling, using machine-checked Coq proofs to establish strong security guarantees for virtualization, edge, and embedded platforms. The company does not publish a public web/REST API; its developer surface is open-source systems software on GitHub.
+
+## Company
+- [Website](https://www.bedrocksystems.com/): Company homepage
+- [GitHub organization](https://github.com/bedrocksystems): 13 open-source repositories
+
+## Open source
+- [NOVA Microhypervisor](https://github.com/bedrocksystems/NOVA): Formally-oriented microhypervisor (C++)
+- [tenjint](https://github.com/bedrocksystems/tenjint): Python 3 platform for virtual machine introspection (VMI)
+- [vml](https://github.com/bedrocksystems/vml): Virtual Machine Libraries (C++)
+- [coq-lens](https://github.com/bedrocksystems/coq-lens): Lenses in Coq
+
+## Notes
+- No public OpenAPI/AsyncAPI/GraphQL specification or hosted REST API was found.
+- Provenance: generated from the API Evangelist catalog and verified GitHub organization metadata.
